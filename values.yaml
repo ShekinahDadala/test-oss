@@ -13,7 +13,7 @@ halyard:
       dynamicAccRepository: test-oss # Please provide the repo name of the GitOps Dynamic Accounts Directory. Can be same as Hal repo.
       dynAccntConfigPath: / #relative path from repository root folder
       username: ShekinahDadala  # Username to authenticate with git/stash repo
-      token: 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
+      token: encrypted:gittoken:gittoken 
   # If spinnakerVersion is not specified appVersion in Chart.yml is chosen for Spinnaker
   spinnakerVersion: 1.30.1
   image:
